@@ -9,7 +9,7 @@ let p1 = new Promise ((resolve) => {
     )
 });
 
-let p2 = new Promise ((resolve) =>{
+let p2 = new Promise ((resolve) => {
     setTimeout(
         () => {
             let date = new Date();

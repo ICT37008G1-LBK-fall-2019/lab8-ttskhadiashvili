@@ -4,7 +4,7 @@ let promise = new Promise((resolve, reject) => {
             let date = new Date();
             let minutes = date.getMinutes();
 
-            if((minutes) % 2 == 0) {
+            if((minutes) % 2 == 0){
                 resolve(minutes);
             }
             else
