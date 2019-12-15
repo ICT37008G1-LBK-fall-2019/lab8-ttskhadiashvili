@@ -1,6 +1,6 @@
 let promise = new Promise((resolve, reject) => {
     setTimeout(
-        () => {
+        () =>{
             let date = new Date();
             let minutes = date.getMinutes();
 
